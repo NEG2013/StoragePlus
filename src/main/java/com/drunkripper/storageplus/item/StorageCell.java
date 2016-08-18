@@ -9,6 +9,9 @@ public class StorageCell extends GItem {
 	public StorageCell(int types, String name) {
 		super(name);
 		this.types = types;
-	}
+	}//constructor
 
-}
+	
+	
+	
+}//class
