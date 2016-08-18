@@ -1,1 +1,6 @@
 tile.network_block.name=Network Block
+tile.controller.name=Controller
+
+item.storage_cell_basic.name=Basic Storage Cell
+
+itemGroup.Storage Plus=Storage Plus

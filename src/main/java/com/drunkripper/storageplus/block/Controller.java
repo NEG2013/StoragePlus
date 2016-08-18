@@ -1,4 +1,4 @@
-package com.drunkripper.storageplus.Blocks;
+package com.drunkripper.storageplus.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

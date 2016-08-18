@@ -1,8 +1,8 @@
-package com.drunkripper.storageplus.main;
+package com.drunkripper.storageplus.registry;
 
-import com.drunkripper.storageplus.Blocks.Controller;
-import com.drunkripper.storageplus.Blocks.GBlock;
-import com.drunkripper.storageplus.Blocks.StorageNetwork;
+import com.drunkripper.storageplus.block.Controller;
+import com.drunkripper.storageplus.block.GBlock;
+import com.drunkripper.storageplus.block.StorageNetwork;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -13,7 +13,7 @@ public class BlockRegistry {
 	public static Block storage_network;
 	public static Block controller;
 	
-	public void initBlocks() {
+	public static void initBlocks() {
     	storage_network = new StorageNetwork(Material.ROCK);
     	controller = new Controller(Material.ROCK, "controller");
     	
@@ -21,8 +21,13 @@ public class BlockRegistry {
 
 	public static void registerRenders(){
 		GBlock.registerRender(controller);
-		GBlock.registerRender(storage_network);
-    	
+		GBlock.registerRender(storage_network);	
 	}
+	
+	
+	
+	
+	
+	
 	
 }

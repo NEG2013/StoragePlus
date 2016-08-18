@@ -1,4 +1,4 @@
-package com.drunkripper.storageplus.Blocks;
+package com.drunkripper.storageplus.block;
 
 import com.drunkripper.storageplus.reference.Reference;
 
@@ -8,6 +8,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class GBlock extends Block {
@@ -23,6 +24,10 @@ public class GBlock extends Block {
 		this.setUnlocalizedName(name);
 	}
 
+	public static void registerAsItem(Block block){
+		
+	}
+	
 	public static void registerRender(Block block){
 		//Item item = new Item().getItemFromBlock(block);
 		

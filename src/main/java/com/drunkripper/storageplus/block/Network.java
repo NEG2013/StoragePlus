@@ -1,4 +1,4 @@
-package com.drunkripper.storageplus.Blocks;
+package com.drunkripper.storageplus.block;
 
 public interface Network {
 

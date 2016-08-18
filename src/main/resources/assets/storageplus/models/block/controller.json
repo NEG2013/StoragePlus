@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "storageplus:blocks/p2"
+        "all": "storageplus:blocks/p1"
     }
 }
