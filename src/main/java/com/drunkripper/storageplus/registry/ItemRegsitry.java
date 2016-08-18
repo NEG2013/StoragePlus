@@ -16,11 +16,16 @@ public class ItemRegsitry {
 	public static void initItems() {
 
 		storage_cell_basic = new GItem("storage_cell_basic");
-
+		storage_cell = new GItem("storage_cell");
+		storage_cell_advanced = new GItem("storage_cell_advanced");
+		storage_cell_ultimate = new GItem("storage_cell_ultimate");
 	}
 
 	public static void registerRenders() {
 		GItem.registerRender(storage_cell_basic);
+		GItem.registerRender(storage_cell);
+		GItem.registerRender(storage_cell_advanced);
+		GItem.registerRender(storage_cell_ultimate);
 	}
 
 }// class

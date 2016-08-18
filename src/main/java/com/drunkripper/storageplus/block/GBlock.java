@@ -1,5 +1,7 @@
 package com.drunkripper.storageplus.block;
 
+import com.drunkripper.storageplus.creative.StoragePlusTab;
+import com.drunkripper.storageplus.main.StoragePlus;
 import com.drunkripper.storageplus.reference.Reference;
 
 import net.minecraft.block.Block;
@@ -16,7 +18,7 @@ public class GBlock extends Block {
 	public GBlock(Material materialIn, String name) {
 		super(materialIn);
 
-		this.setCreativeTab(CreativeTabs.REDSTONE);
+		this.setCreativeTab(StoragePlusTab.StoragePlus);
 		this.setHardness(1F);
 		this.setHarvestLevel("pickaxe", 1);
 		this.setLightLevel(0F);

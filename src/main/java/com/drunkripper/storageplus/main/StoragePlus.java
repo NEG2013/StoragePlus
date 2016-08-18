@@ -29,7 +29,6 @@ public class StoragePlus
 
 	public static CommonProxy proxy;
 
-
 	@EventHandler
     public void preinit(FMLPreInitializationEvent event)
     {
@@ -55,10 +54,7 @@ public class StoragePlus
     	
     	
     	
-    	Item item = Item.getItemFromBlock(BlockRegistry.controller);
-    	StoragePlusTab.setItem(item);
-    	StoragePlusTab tabStoragePlus = new StoragePlusTab("Storage Plus");
-    
+    	
     }//post init
     
 }//class

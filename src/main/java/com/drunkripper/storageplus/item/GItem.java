@@ -1,5 +1,7 @@
 package com.drunkripper.storageplus.item;
 
+import com.drunkripper.storageplus.creative.StoragePlusTab;
+import com.drunkripper.storageplus.main.StoragePlus;
 import com.drunkripper.storageplus.reference.Reference;
 
 import net.minecraft.block.Block;
@@ -14,7 +16,7 @@ public class GItem extends Item {
 
 	public GItem(String name) {
 
-		this.setCreativeTab(CreativeTabs.REDSTONE);
+		this.setCreativeTab(StoragePlusTab.StoragePlus);
 		this.setHarvestLevel("pickaxe", 1);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

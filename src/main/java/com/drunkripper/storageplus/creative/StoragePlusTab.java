@@ -1,23 +1,20 @@
 package com.drunkripper.storageplus.creative;
 
+import com.drunkripper.storageplus.registry.ItemRegsitry;
+
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class StoragePlusTab extends CreativeTabs {
-
-	public static Item item1;
-
-	public StoragePlusTab(String label) {
-		super(label);
-	}// constructor
-
-	public static void setItem(Item item) {
-		item1 = item;
-	}// setItem
-
-	@Override
-	public Item getTabIconItem() {
-		return item1;
-	}// getTabIconItem
-
+public class StoragePlusTab {
+	public static final CreativeTabs StoragePlus = new CreativeTabs("Storage Plus")
+    {
+        @SideOnly(Side.CLIENT)
+        public Item getTabIconItem()
+        {
+            return ItemRegsitry.storage_cell_ultimate;
+        }
+    };
 }// class

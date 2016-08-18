@@ -2,5 +2,9 @@ tile.network_block.name=Network Block
 tile.controller.name=Controller
 
 item.storage_cell_basic.name=Basic Storage Cell
+item.storage_cell.name=Storage Cell
+item.storage_cell_advanced.name=Advanced Storage Cell
+item.storage_cell_ultimate.name=Ultimate Storage Cell
+
 
 itemGroup.Storage Plus=Storage Plus
