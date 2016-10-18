@@ -41,6 +41,7 @@ public class StoragePlus
     public void init(FMLInitializationEvent event)
     {
     	BlockRegistry.initBlocks();
+    	BlockRegistry.register();
     	ItemRegsitry.initItems();
     	proxy.init();    
     	

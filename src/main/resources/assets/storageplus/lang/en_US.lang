@@ -1,10 +1,21 @@
 tile.network_block.name=Network Block
 tile.controller.name=Controller
+tile.storage_node.name=Storage Node
+
+tile.storage_node_down.name=Storage Node
+tile.storage_node_up.name=Storage Node
+tile.storage_node_north.name=Storage Node
+tile.storage_node_south.name=Storage Node
+tile.storage_node_east.name=Storage Node
+tile.storage_node_west.name=Storage Node
+
+tile.energy_matrix.name=Energy Matrix
 
 item.storage_cell_basic.name=Basic Storage Cell
 item.storage_cell.name=Storage Cell
 item.storage_cell_advanced.name=Advanced Storage Cell
 item.storage_cell_ultimate.name=Ultimate Storage Cell
 
+item.wrench.name=Wrench
 
 itemGroup.Storage Plus=Storage Plus

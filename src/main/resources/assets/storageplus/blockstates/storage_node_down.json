@@ -1,7 +1,9 @@
 
 { "forge_marker": 1,
-    "defaults": { "model": "storageplus:controller"
+    "defaults": { "model": "storageplus:storage_node_down"
     },
         "variants": { "normal": [{}], "inventory": [{}]
     }
 }
+
+

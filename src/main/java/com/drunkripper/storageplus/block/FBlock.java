@@ -13,12 +13,11 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class GBlock extends Block {
+public class FBlock extends Block {
 
-	public GBlock(Material materialIn, String name) {
+	public FBlock(Material materialIn, String name) {
 		super(materialIn);
 
-		this.setCreativeTab(StoragePlusTab.StoragePlus);
 		this.setHardness(1F);
 		this.setHarvestLevel("pickaxe", 1);
 		this.setLightLevel(0F);
@@ -42,3 +41,4 @@ public class GBlock extends Block {
 		// GameRegistry.registerBlock(block);
 	}// register
 }
+

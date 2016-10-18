@@ -9,10 +9,12 @@ import com.drunkripper.storageplus.item.StorageCell;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class ItemRegsitry {
 
 	public static Item storage_cell_basic, storage_cell, storage_cell_advanced, storage_cell_ultimate;
+	public static Item wrench;
 
 	public static void initItems() {
 
@@ -20,13 +22,18 @@ public class ItemRegsitry {
 		storage_cell = new StorageCell(32, "storage_cell");
 		storage_cell_advanced = new StorageCell(128, "storage_cell_advanced");
 		storage_cell_ultimate = new StorageCell(512, "storage_cell_ultimate");
-	}
+		
+		wrench = new GItem("wrench");
+	}//initItems
 
 	public static void registerRenders() {
 		GItem.registerRender(storage_cell_basic);
 		GItem.registerRender(storage_cell);
 		GItem.registerRender(storage_cell_advanced);
 		GItem.registerRender(storage_cell_ultimate);
-	}
+		
+		GItem.registerRender(wrench);
+		
+	}//registerRenders
 
 }// class

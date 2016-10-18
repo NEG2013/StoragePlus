@@ -1,5 +1,7 @@
 package com.drunkripper.storageplus.block;
 
+import com.drunkripper.storageplus.networkinterface.Network;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
